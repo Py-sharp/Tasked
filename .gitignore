@@ -1,0 +1,34 @@
+dependencies
+
+/node_modules
+
+Since your node_modules is likely inside 'client/', we also ignore the specific path
+
+client/node_modules
+server/node_modules
+/.pnp
+.pnp.js
+
+production build artifacts
+
+/build
+/dist
+/out
+client/build
+
+visual studio / VS Code metadata (This fixes those permission errors too!)
+
+/.vs/
+.vscode/
+
+misc operating system and environment files
+
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
